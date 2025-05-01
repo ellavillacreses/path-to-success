@@ -1,0 +1,211 @@
+/* CSS BY Ella Villacreses */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --Teal :#4CA7C0;
+    --Purple: #484FB7;
+    --Lavender: #6B8FE7;
+    --Yellow: #E9BB57; 
+    --Pink:#D9526F;
+    --Dark-gray:#1E1E1E; 
+    --White:#ffffff; 
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+body {
+    font-family: Inter;
+    background-color: var(--Lavender);
+    text-align: center;
+    max-width: 450px;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: var(--Purple);
+}
+
+
+header {
+    background-color: var(--Purple);
+    padding: 0.5rem;
+    color: var(--White);
+}
+
+.menu {
+    background-color: var(--Yellow);
+    color: var(--Dark-gray);
+    font-style: italic;
+    font-weight: bold;
+    padding: 0.25rem;
+    padding-top: 0.5rem;
+}
+
+.menu-title {
+    font-size: 1.5em;
+}
+
+.menu ul {
+    list-style: none;
+    color: var(--Purple);
+    font-style: normal;
+    font-weight: bold;
+    background-color: var(--Yellow);
+    padding: 1rem;
+}
+
+.menu li {
+    display: block;
+    text-decoration: none;
+    background-color: var(--White);
+    color: var(--Purple);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+}
+
+.align-left {
+    display: block;
+    margin: 0 auto 0 2rem;
+}
+
+.card {
+    background-color: var(--White);
+    text-align: left;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.service-card h4 + p {
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.choose {
+    background-color: var(--Pink);
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.choose div {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.choose div div {
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.pricing {
+    padding: 1rem;
+}
+
+.pricing table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.pricing thead th {
+    background-color: var(--Yellow);
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.pricing tbody td {
+    background-color: var(--White);
+    padding: 0.75rem 1rem;
+    border: 2px solid var(--Yellow);
+}
+
+h1 {
+    font-family: Kavoon;
+    font-size: 3em;
+    margin: 0.5rem;
+}
+
+h2 {
+    font-family: Kavoon;
+    font-size: 2em;
+    color: var(--White);
+    margin: 0.5rem;
+    text-align: left;
+}
+
+h2 nav {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 1.5em;
+    color: var(--Yellow);
+    margin: 0.5rem;
+    text-align: left;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 1.15em;
+    color: var(--Purple);
+    margin: 0;
+    background-color: var(--White);
+    text-align: left;
+    line-height: 2;
+}
+
+.step {
+    background-color: var(--Pink);
+    text-align: center;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.step p {
+    color: var(--White);
+    margin: 1rem;
+    line-height: 1.5;
+}
+
+.schedule {
+    background-color: var(--White);
+    color: var(--Dark-gray);
+    text-align: center;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 1.5rem;
+    font-weight: bold;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8);
+}
+
+footer {
+    color: var(--White);
+    gap: 2rem;
+    padding: 4rem;
+}
+
